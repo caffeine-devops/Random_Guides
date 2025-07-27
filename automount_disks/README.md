@@ -59,7 +59,7 @@ Test the new fstab entry without rebooting
 sudo mount -a
 ```
 
-> [!note] Note:
+> [!tip]
 > You might see an output asking you to run `sudo systemctl daemon-reload`. Do it
 > If there are no errors, your mount should be accessible.
 
@@ -75,6 +75,7 @@ You can now reboot the system and run the above command to verify if it automoun
 
 ## Make Mounted Drives Easier to Access using Symlinks
 
+> [!note]
 > This section is optional
 
 When mounting external or secondary drives in Linux, they're often mounted under `/media` or `/mnt` (in this case `/media/Data`).

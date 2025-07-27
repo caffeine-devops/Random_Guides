@@ -2,7 +2,7 @@
 
 This guide walks you through setting a **static IP address** on an Ubuntu server using **Netplan**, for both **Wi-Fi** and **Ethernet** interfaces.
 
-> Note:
+> [!note]
 > This should also work for other Linux servers/systems
 
 ---
@@ -78,7 +78,8 @@ network:
             password: "your_wifi_password"      # Replace with your wifi password
 ```
 
-> Note: Be sure to update the interface names (`wlp2s0`,`ens18`, etc) to match your system. Use the `ip a` or `ifconfig` or `networkctl` command to list the interface.
+> [!note]
+> Be sure to update the interface names (`wlp2s0`,`ens18`, etc) to match your system. Use the `ip a` or `ifconfig` or `networkctl` command to list the interface.
 > Also update any relevant details that I have highlighted with the comments
 
 ## Step 3: Apply the Configuration
