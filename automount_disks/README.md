@@ -60,7 +60,8 @@ sudo mount -a
 ```
 
 > [!tip]
-> You might see an output asking you to run `sudo systemctl daemon-reload`. Do it
+> You might see an output asking you to run `sudo systemctl daemon-reload`. Do it!
+>
 > If there are no errors, your mount should be accessible.
 
 You can verify this with

@@ -80,7 +80,7 @@ network:
 
 > [!note]
 > Be sure to update the interface names (`wlp2s0`,`ens18`, etc) to match your system. Use the `ip a` or `ifconfig` or `networkctl` command to list the interface.
-> Also update any relevant details that I have highlighted with the comments
+> Also, update any relevant details that I have highlighted with the comments.
 
 ## Step 3: Apply the Configuration
 
